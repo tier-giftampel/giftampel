@@ -93,13 +93,38 @@ Wenn du die App über Google Play (bzw. später den Apple App Store) installiers
 
 Diese Seite wird über **GitHub Pages** bereitgestellt (GitHub Inc., ein Unternehmen von Microsoft, USA). Beim Aufruf verarbeitet GitHub technisch notwendige Daten wie deine IP-Adresse, z. B. zum Schutz vor Angriffen. Diese Seite selbst setzt **keine Cookies** und nutzt **keine Statistik- oder Analysedienste**. Weitere Informationen: GitHub-Datenschutzerklärung (docs.github.com, „GitHub General Privacy Statement“). Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO.
 
-### 13. Deine Rechte
+### 13. Rechtsgrundlagen
 
-Du hast das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit und Widerspruch (Art. 15–21 DSGVO). Da der Entwickler keine Daten aus der App erhält, kannst du die meisten Daten direkt selbst in der App oder durch Deinstallieren löschen. Für Fragen genügt eine E-Mail an tier.giftampel@gmail.com.
+Wir verarbeiten Daten nur auf Grundlage der Datenschutz-Grundverordnung (DSGVO):
 
-Außerdem kannst du dich bei einer Datenschutz-Aufsichtsbehörde beschweren, insbesondere in dem EU-Land, in dem du wohnst (in Italien z. B. beim Garante per la protezione dei dati personali).
+- **Art. 6 Abs. 1 lit. b DSGVO** – wenn die Verarbeitung nötig ist, um eine Funktion auszuführen, die du selbst anforderst (z. B. Produktabfrage bei Open Food Facts).
+- **Art. 6 Abs. 1 lit. f DSGVO** – berechtigtes Interesse, z. B. am sicheren Betrieb dieser Webseite und an der Beantwortung von E-Mails.
 
-### 14. Änderungen
+Zusätzlich gelten in Deutschland das Bundesdatenschutzgesetz (BDSG) und gegebenenfalls Landesdatenschutzgesetze.
+
+### 14. Sicherheit
+
+- Alle Verbindungen der App (Open Food Facts) und dieser Webseite sind per **HTTPS** verschlüsselt.
+- Die Daten der App liegen im geschützten App-Speicher; andere Apps haben darauf keinen Zugriff.
+- Die Datei aus „Daten weitergeben“ ist **nicht verschlüsselt**. Gib sie deshalb nur an Personen weiter, denen du vertraust.
+
+### 15. Übermittlung in Länder außerhalb der EU
+
+GitHub (Webseite) und Google (E-Mail, Google Play, Android-Sicherung) haben ihren Sitz in den **USA**. Für diese Übermittlungen gilt der Angemessenheitsbeschluss der EU-Kommission vom 10. Juli 2023 zum **EU-US Data Privacy Framework**. Google und Microsoft (zu Microsoft gehört GitHub) sind nach eigenen Angaben danach zertifiziert; die Liste der zertifizierten Unternehmen findest du unter https://www.dataprivacyframework.gov/list. Open Food Facts hat seinen Sitz in Frankreich, also innerhalb der EU.
+
+### 16. Deine Rechte
+
+Du hast das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung und Datenübertragbarkeit (Art. 15–20 DSGVO). Eine erteilte Einwilligung kannst du jederzeit widerrufen.
+
+**Widerspruchsrecht (Art. 21 DSGVO):** Soweit wir Daten auf Grundlage berechtigter Interessen (Art. 6 Abs. 1 lit. f DSGVO) verarbeiten, kannst du dieser Verarbeitung aus Gründen, die sich aus deiner besonderen Situation ergeben, jederzeit widersprechen. Da der Entwickler keine Daten aus der App erhält, kannst du die meisten Daten direkt selbst in der App oder durch Deinstallieren löschen. Für Fragen genügt eine E-Mail an tier.giftampel@gmail.com.
+
+Außerdem kannst du dich bei einer Datenschutz-Aufsichtsbehörde beschweren, insbesondere in dem EU-Land, in dem du wohnst oder arbeitst (in Italien z. B. beim Garante per la protezione dei dati personali). Für den Verantwortlichen zuständig ist:
+
+Der Landesbeauftragte für den Datenschutz und die Informationsfreiheit Rheinland-Pfalz  
+Hintere Bleiche 34, 55116 Mainz  
+E-Mail: poststelle@datenschutz.rlp.de · Webseite: https://www.datenschutz.rlp.de/
+
+### 17. Änderungen
 
 Wenn sich die App ändert, wird diese Erklärung angepasst. Es gilt die jeweils hier veröffentlichte Fassung.
 
@@ -191,13 +216,38 @@ Se installi l'app tramite Google Play (o in futuro tramite l'App Store di Apple)
 
 Questa pagina è pubblicata tramite **GitHub Pages** (GitHub Inc., società di Microsoft, USA). Quando la visiti, GitHub tratta dati tecnicamente necessari come il tuo indirizzo IP, ad es. per proteggersi da attacchi. Questa pagina **non usa cookie** né **servizi di statistica o analisi**. Ulteriori informazioni: informativa sulla privacy di GitHub (docs.github.com, «GitHub General Privacy Statement»). Base giuridica: art. 6, par. 1, lett. f del GDPR.
 
-### 13. I tuoi diritti
+### 13. Basi giuridiche
 
-Hai diritto di accesso, rettifica, cancellazione, limitazione del trattamento, portabilità dei dati e opposizione (artt. 15–21 GDPR). Poiché lo sviluppatore non riceve dati dall'app, puoi cancellare la maggior parte dei dati direttamente nell'app o disinstallandola. Per domande basta un'e-mail a tier.giftampel@gmail.com.
+Trattiamo i dati solo sulla base del Regolamento generale sulla protezione dei dati (GDPR):
 
-Puoi inoltre presentare reclamo a un'autorità di controllo per la protezione dei dati, in particolare nel paese UE in cui vivi (in Italia: Garante per la protezione dei dati personali).
+- **art. 6, par. 1, lett. b GDPR** – quando il trattamento è necessario per eseguire una funzione che richiedi tu (ad es. la ricerca di un prodotto su Open Food Facts).
+- **art. 6, par. 1, lett. f GDPR** – legittimo interesse, ad es. al funzionamento sicuro di questo sito e alla risposta alle e-mail.
 
-### 14. Modifiche
+Poiché il titolare ha sede in Germania, si applicano inoltre la legge federale tedesca sulla protezione dei dati (BDSG) ed eventualmente le leggi dei Länder.
+
+### 14. Sicurezza
+
+- Tutte le connessioni dell'app (Open Food Facts) e di questo sito sono cifrate tramite **HTTPS**.
+- I dati dell'app si trovano nella memoria protetta dell'app; le altre app non possono accedervi.
+- Il file creato con «Condividi dati» **non è cifrato**. Condividilo quindi solo con persone di cui ti fidi.
+
+### 15. Trasferimenti verso paesi al di fuori dell'UE
+
+GitHub (sito web) e Google (e-mail, Google Play, backup di Android) hanno sede negli **Stati Uniti**. Per questi trasferimenti vale la decisione di adeguatezza della Commissione europea del 10 luglio 2023 sull'**EU-US Data Privacy Framework**. Google e Microsoft (di cui fa parte GitHub) dichiarano di essere certificati; l'elenco delle aziende certificate è disponibile su https://www.dataprivacyframework.gov/list. Open Food Facts ha sede in Francia, quindi all'interno dell'UE.
+
+### 16. I tuoi diritti
+
+Hai diritto di accesso, rettifica, cancellazione, limitazione del trattamento e portabilità dei dati (artt. 15–20 GDPR). Puoi revocare in qualsiasi momento un consenso dato.
+
+**Diritto di opposizione (art. 21 GDPR):** se trattiamo dati sulla base di un legittimo interesse (art. 6, par. 1, lett. f GDPR), puoi opporti in qualsiasi momento a tale trattamento per motivi connessi alla tua situazione particolare. Poiché lo sviluppatore non riceve dati dall'app, puoi cancellare la maggior parte dei dati direttamente nell'app o disinstallandola. Per domande basta un'e-mail a tier.giftampel@gmail.com.
+
+Puoi inoltre presentare reclamo a un'autorità di controllo per la protezione dei dati, in particolare nel paese UE in cui vivi o lavori (in Italia: Garante per la protezione dei dati personali). L'autorità competente per il titolare è:
+
+Der Landesbeauftragte für den Datenschutz und die Informationsfreiheit Rheinland-Pfalz  
+Hintere Bleiche 34, 55116 Mainz  
+E-Mail: poststelle@datenschutz.rlp.de · Webseite: https://www.datenschutz.rlp.de/
+
+### 17. Modifiche
 
 Se l'app cambia, questa informativa verrà aggiornata. Vale la versione pubblicata su questa pagina.
 
@@ -289,12 +339,37 @@ If you install the app via Google Play (or later the Apple App Store), the store
 
 This page is provided via **GitHub Pages** (GitHub Inc., a Microsoft company, USA). When you visit it, GitHub processes technically necessary data such as your IP address, e.g. to protect against attacks. This page itself sets **no cookies** and uses **no statistics or analytics services**. More information: GitHub privacy statement (docs.github.com, “GitHub General Privacy Statement”). Legal basis: Art. 6(1)(f) GDPR.
 
-### 13. Your rights
+### 13. Legal bases
 
-You have the right of access, rectification, erasure, restriction of processing, data portability and objection (Art. 15–21 GDPR). As the developer receives no data from the app, you can delete most data yourself directly in the app or by uninstalling it. For questions, an e-mail to tier.giftampel@gmail.com is enough.
+We only process data on the basis of the General Data Protection Regulation (GDPR):
 
-You can also lodge a complaint with a data protection supervisory authority, in particular in the EU country where you live (in Italy, for example, the Garante per la protezione dei dati personali).
+- **Art. 6(1)(b) GDPR** – where processing is necessary to carry out a function you request yourself (e.g. a product lookup at Open Food Facts).
+- **Art. 6(1)(f) GDPR** – legitimate interest, e.g. in operating this website securely and answering e-mails.
 
-### 14. Changes
+As the controller is based in Germany, the German Federal Data Protection Act (BDSG) and, where applicable, state data protection laws also apply.
+
+### 14. Security
+
+- All connections of the app (Open Food Facts) and of this website are encrypted via **HTTPS**.
+- The app's data is kept in protected app storage; other apps cannot access it.
+- The file created with “Share data” is **not encrypted**. Please only share it with people you trust.
+
+### 15. Transfers to countries outside the EU
+
+GitHub (website) and Google (e-mail, Google Play, Android backup) are based in the **USA**. These transfers are covered by the European Commission's adequacy decision of 10 July 2023 on the **EU-US Data Privacy Framework**. Google and Microsoft (which owns GitHub) state that they are certified under it; the list of certified companies is available at https://www.dataprivacyframework.gov/list. Open Food Facts is based in France, i.e. within the EU.
+
+### 16. Your rights
+
+You have the right of access, rectification, erasure, restriction of processing and data portability (Art. 15–20 GDPR). You can withdraw any consent you have given at any time.
+
+**Right to object (Art. 21 GDPR):** where we process data on the basis of legitimate interests (Art. 6(1)(f) GDPR), you can object to this processing at any time on grounds relating to your particular situation. As the developer receives no data from the app, you can delete most data yourself directly in the app or by uninstalling it. For questions, an e-mail to tier.giftampel@gmail.com is enough.
+
+You can also lodge a complaint with a data protection supervisory authority, in particular in the EU country where you live or work (in Italy, for example, the Garante per la protezione dei dati personali). The authority responsible for the controller is:
+
+Der Landesbeauftragte für den Datenschutz und die Informationsfreiheit Rheinland-Pfalz  
+Hintere Bleiche 34, 55116 Mainz  
+E-Mail: poststelle@datenschutz.rlp.de · Webseite: https://www.datenschutz.rlp.de/
+
+### 17. Changes
 
 If the app changes, this policy will be updated. The version published on this page applies.
