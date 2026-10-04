@@ -33,7 +33,7 @@ Die Tier-Giftampel ist ein privates, nicht-kommerzielles Projekt.
 Die App speichert im geschützten App-Speicher deines Handys:
 
 - gescannte und selbst eingetragene **Produkte** samt Zutaten und **Produktfotos**,
-- deine **Tier-Karteikarten** („Meine Tiere“): Tierart, Name, Geburtstag, Rasse, Geschlecht, Chipnummer, Notizen, Foto, **Impfungen**, **Gewichtsverlauf**, **Körperzustand** sowie **Medikamente** mit Uhrzeiten und dem Protokoll der Gaben,
+- deine **Tier-Karteikarten** („Meine Tiere“): Tierart, Name, Geburtstag, Rasse, Geschlecht, Aussehen, Chipnummer, Notizen, Foto, **Impfungen**, **Gewichtsverlauf**, **Körperzustand** sowie **Medikamente** mit Uhrzeiten und dem Protokoll der Gaben,
 - deine **Notfall-Kontakte** (Tierarzt, Notdienst, Giftnotruf),
 - Einstellungen (z. B. Sprache, Hund/Katze).
 
@@ -81,7 +81,7 @@ Tippst du bei einem Notfall-Kontakt auf „Anrufen“, wird die Nummer an die Te
 
 Nur wenn du „Daten weitergeben“ selbst startest, erstellt die App eine Datei mit deinen Produkten und Fotos – auf Wunsch auch mit Notfall-Kontakten und Tier-Karteikarten. Du entscheidest, auf welchem Weg und an wen du sie schickst. Für die Übertragung gelten die Bedingungen des gewählten Dienstes (z. B. Google Quick Share, WhatsApp, dein E-Mail-Anbieter). Bitte gib die Datei nur an Personen weiter, denen du vertraust.
 
-**Suchplakat:** Erstellst du ein Suchplakat, entsteht auf dem Handy eine PDF-Datei mit Foto, Name, Rasse, Alter, Gewicht, den Angaben zum Verschwinden und der Telefonnummer, die du einträgst. Die Chipnummer steht nicht darauf. Die Telefonnummer wird für das nächste Plakat auf dem Handy gemerkt. Das Plakat verlässt das Handy nur, wenn du es selbst teilst oder druckst – dann ist es für alle sichtbar, die es sehen.
+**Suchplakat:** Erstellst du ein Suchplakat, entsteht auf dem Handy eine PDF-Datei mit Foto, Name, Rasse, Alter, Gewicht, Aussehen, den Angaben zum Verschwinden und der Telefonnummer, die du einträgst. Die Chipnummer steht nicht darauf. Die Telefonnummer wird für das nächste Plakat auf dem Handy gemerkt. Das Plakat verlässt das Handy nur, wenn du es selbst teilst oder druckst – dann ist es für alle sichtbar, die es sehen.
 
 ### 10. Kontakt per E-Mail
 
@@ -158,7 +158,7 @@ Tier-Giftampel è un progetto privato e senza scopo di lucro.
 L'app salva nella memoria protetta dell'app sul tuo telefono:
 
 - i **prodotti** scansionati e inseriti da te, con ingredienti e **foto dei prodotti**,
-- le **schede dei tuoi animali** («I miei animali»): specie, nome, compleanno, razza, sesso, numero di microchip, note, foto, **vaccinazioni**, **andamento del peso**, **condizione corporea** e **farmaci** con orari e registro delle somministrazioni,
+- le **schede dei tuoi animali** («I miei animali»): specie, nome, compleanno, razza, sesso, aspetto, numero di microchip, note, foto, **vaccinazioni**, **andamento del peso**, **condizione corporea** e **farmaci** con orari e registro delle somministrazioni,
 - i tuoi **contatti di emergenza** (veterinario, pronto soccorso veterinario, centro antiveleni),
 - le impostazioni (ad es. lingua, cane/gatto).
 
@@ -206,7 +206,7 @@ Se tocchi «Chiama» per un contatto di emergenza, il numero viene passato all'a
 
 Solo se avvii tu «Condividi dati», l'app crea un file con i tuoi prodotti e le foto – se lo desideri anche con i contatti di emergenza e le schede degli animali. Decidi tu come e a chi inviarlo. Per la trasmissione valgono le condizioni del servizio scelto (ad es. Google Quick Share, WhatsApp, il tuo fornitore di e-mail). Condividi il file solo con persone di cui ti fidi.
 
-**Volantino di ricerca:** se crei un volantino, sul telefono viene generato un file PDF con foto, nome, razza, età, peso, i dati sulla scomparsa e il numero di telefono che inserisci. Il numero di microchip non compare. Il numero di telefono viene memorizzato sul telefono per il volantino successivo. Il volantino lascia il telefono solo se lo condividi o lo stampi tu – da quel momento è visibile a chiunque lo veda.
+**Volantino di ricerca:** se crei un volantino, sul telefono viene generato un file PDF con foto, nome, razza, età, peso, aspetto, i dati sulla scomparsa e il numero di telefono che inserisci. Il numero di microchip non compare. Il numero di telefono viene memorizzato sul telefono per il volantino successivo. Il volantino lascia il telefono solo se lo condividi o lo stampi tu – da quel momento è visibile a chiunque lo veda.
 
 ### 10. Contatto via e-mail
 
@@ -283,7 +283,7 @@ Tier-Giftampel is a private, non-commercial project.
 The app stores in its protected app storage on your phone:
 
 - scanned and self-entered **products** with ingredients and **product photos**,
-- your **pet cards** (“My pets”): species, name, birthday, breed, sex, microchip number, notes, photo, **vaccinations**, **weight history**, **body condition** and **medication** with times and a log of doses given,
+- your **pet cards** (“My pets”): species, name, birthday, breed, sex, appearance, microchip number, notes, photo, **vaccinations**, **weight history**, **body condition** and **medication** with times and a log of doses given,
 - your **emergency contacts** (vet, emergency vet, poison control),
 - settings (e.g. language, dog/cat).
 
@@ -331,7 +331,7 @@ If you tap “Call” for an emergency contact, the number is passed to your pho
 
 Only if you start “Share data” yourself does the app create a file with your products and photos – and, if you wish, your emergency contacts and pet cards. You decide how and to whom you send it. The terms of the service you choose apply to the transfer (e.g. Google Quick Share, WhatsApp, your e-mail provider). Please only share the file with people you trust.
 
-**Missing poster:** if you create a missing poster, a PDF file is generated on the phone with photo, name, breed, age, weight, the details of the disappearance and the phone number you enter. The microchip number is not included. The phone number is remembered on the phone for the next poster. The poster only leaves the phone if you share or print it yourself – from then on it is visible to anyone who sees it.
+**Missing poster:** if you create a missing poster, a PDF file is generated on the phone with photo, name, breed, age, weight, appearance, the details of the disappearance and the phone number you enter. The microchip number is not included. The phone number is remembered on the phone for the next poster. The poster only leaves the phone if you share or print it yourself – from then on it is visible to anyone who sees it.
 
 ### 10. Contact by e-mail
 
