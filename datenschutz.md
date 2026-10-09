@@ -37,7 +37,7 @@ Die App speichert im geschützten App-Speicher deines Handys:
 - deine **Tier-Karteikarten** („Meine Tiere“): Tierart, Name, Geburtstag, Rasse, Geschlecht, Aussehen, Chipnummer, Notizen, Foto, **Impfungen**, **Gewichtsverlauf**, **Körperzustand** sowie **Medikamente** mit Uhrzeiten und dem Protokoll der Gaben,
 - deine **Notfall-Kontakte** (Tierarzt, Notdienst, Giftnotruf),
 - deine **Gefahrenstellen** für die Gassi-Runde: Art der Gefahr, Ort (Koordinaten), Ortsbeschreibung, Notiz, optional ein Foto, Datum und Gültigkeit,
-- deine **Rezepte**: eigene Rezepte, Fotos dazu und übernommene Dateien (z. B. eine heruntergeladene Rezept-PDF). Beim Übernehmen liest die App den Text der Datei **nur auf dem Handy** aus – nichts wird hochgeladen,
+- deine **Rezepte**: eigene Rezepte, Fotos dazu und übernommene Rezept-PDFs. Übernehmen kannst du PDF-, Word-, LibreOffice-, RTF- und Textdateien. Die App liest den Text der Datei **nur auf dem Handy** aus – nichts wird hochgeladen. Gespeichert wird beim Rezept nur eine Original-PDF; von den anderen Dateien behält die App nur den ausgelesenen Text,
 - Einstellungen (z. B. Sprache, Hund/Katze).
 
 Der Entwickler hat auf diese Daten **keinen Zugriff**. Sie werden gelöscht, wenn du die App deinstallierst oder in den Android-Einstellungen die App-Daten löschst.
@@ -194,7 +194,7 @@ L'app salva nella memoria protetta dell'app sul tuo telefono:
 - le **schede dei tuoi animali** («I miei animali»): specie, nome, compleanno, razza, sesso, aspetto, numero di microchip, note, foto, **vaccinazioni**, **andamento del peso**, **condizione corporea** e **farmaci** con orari e registro delle somministrazioni,
 - i tuoi **contatti di emergenza** (veterinario, pronto soccorso veterinario, centro antiveleni),
 - i tuoi **punti pericolosi** per la passeggiata: tipo di pericolo, posizione (coordinate), descrizione del luogo, nota, eventualmente una foto, data e validità,
-- le tue **ricette**: ricette proprie, relative foto e file importati (ad es. un PDF di ricetta scaricato). All'importazione l'app legge il testo del file **solo sul telefono** – non viene caricato nulla,
+- le tue **ricette**: ricette proprie, relative foto e PDF di ricette importati. Puoi importare file PDF, Word, LibreOffice, RTF e di testo. L'app legge il testo del file **solo sul telefono** – non viene caricato nulla. Con la ricetta viene salvato solo un PDF originale; degli altri file l'app conserva solo il testo letto,
 - le impostazioni (ad es. lingua, cane/gatto).
 
 Lo sviluppatore **non ha accesso** a questi dati. Vengono cancellati quando disinstalli l'app o cancelli i dati dell'app nelle impostazioni di Android.
@@ -351,7 +351,7 @@ The app stores in its protected app storage on your phone:
 - your **pet cards** (“My pets”): species, name, birthday, breed, sex, appearance, microchip number, notes, photo, **vaccinations**, **weight history**, **body condition** and **medication** with times and a log of doses given,
 - your **emergency contacts** (vet, emergency vet, poison control),
 - your **hazard spots** for dog walks: type of hazard, location (coordinates), place description, note, optionally a photo, date and validity,
-- your **recipes**: your own recipes, photos of them and imported files (e.g. a downloaded recipe PDF). When importing, the app reads the file's text **only on the phone** – nothing is uploaded,
+- your **recipes**: your own recipes, photos of them and imported recipe PDFs. You can import PDF, Word, LibreOffice, RTF and text files. The app reads the file's text **only on the phone** – nothing is uploaded. Only an original PDF is stored with the recipe; for other files the app keeps only the text it has read,
 - settings (e.g. language, dog/cat).
 
 The developer has **no access** to this data. It is deleted when you uninstall the app or clear the app data in the Android settings.
@@ -508,7 +508,7 @@ Uygulama, telefonunuzun korumalı uygulama belleğinde şunları saklar:
 - **hayvan kartlarınız** (“Hayvanlarım”): hayvan türü, ad, doğum günü, ırk, cinsiyet, görünüm, çip numarası, notlar, fotoğraf, **aşılar**, **kilo geçmişi**, **vücut kondisyonu** ile saatleri ve verilen dozların kaydıyla birlikte **ilaçlar**,
 - **acil durum kişileriniz** (veteriner, nöbetçi veteriner, zehir danışma hattı),
 - köpek gezintisi için **tehlikeli yerleriniz**: tehlikenin türü, yer (koordinatlar), yer tarifi, not, isteğe bağlı bir fotoğraf, tarih ve geçerlilik süresi,
-- **tarifleriniz**: kendi tarifleriniz, bunların fotoğrafları ve alınan dosyalar (ör. indirilmiş bir tarif PDF'si). Dosya alınırken uygulama metni **yalnızca telefonda** okur – hiçbir şey yüklenmez,
+- **tarifleriniz**: kendi tarifleriniz, bunların fotoğrafları ve alınan tarif PDF'leri. PDF, Word, LibreOffice, RTF ve metin dosyalarını aktarabilirsiniz. Uygulama dosyanın metnini **yalnızca telefonda** okur – hiçbir şey yüklenmez. Tarifle birlikte yalnızca orijinal bir PDF saklanır; diğer dosyalardan uygulama yalnızca okunan metni tutar,
 - ayarlar (ör. dil, köpek/kedi).
 
 Geliştiricinin bu verilere **erişimi yoktur**. Veriler, uygulamayı kaldırdığınızda veya Android ayarlarından uygulama verilerini sildiğinizde silinir.
@@ -665,7 +665,7 @@ E-mail: tier.giftampel@gmail.com
 - τις **καρτέλες των ζώων** σας («Τα ζώα μου»): είδος ζώου, όνομα, γενέθλια, φυλή, φύλο, εμφάνιση, αριθμός μικροτσίπ, σημειώσεις, φωτογραφία, **εμβόλια**, **ιστορικό βάρους**, **σωματική κατάσταση** καθώς και **φάρμακα** με ώρες χορήγησης και το αρχείο των δόσεων που δόθηκαν,
 - τις **επαφές έκτακτης ανάγκης** (κτηνίατρος, κτηνιατρείο έκτακτης ανάγκης, κέντρο δηλητηριάσεων),
 - τα **επικίνδυνα σημεία** σας για τη βόλτα σκύλου: είδος κινδύνου, τοποθεσία (συντεταγμένες), περιγραφή τοποθεσίας, σημείωση, προαιρετικά μια φωτογραφία, ημερομηνία και διάρκεια ισχύος,
-- οι **συνταγές** σας: δικές σας συνταγές, φωτογραφίες τους και εισαγόμενα αρχεία (π.χ. ένα PDF συνταγής που κατεβάσατε). Κατά την εισαγωγή η εφαρμογή διαβάζει το κείμενο του αρχείου **μόνο στο κινητό** – δεν ανεβαίνει τίποτα,
+- οι **συνταγές** σας: δικές σας συνταγές, φωτογραφίες τους και εισαγόμενα PDF συνταγών. Μπορείτε να εισαγάγετε αρχεία PDF, Word, LibreOffice, RTF και κειμένου. Η εφαρμογή διαβάζει το κείμενο του αρχείου **μόνο στο κινητό** – δεν ανεβαίνει τίποτα. Μαζί με τη συνταγή αποθηκεύεται μόνο ένα πρωτότυπο PDF· από τα άλλα αρχεία η εφαρμογή κρατά μόνο το κείμενο που διάβασε,
 - ρυθμίσεις (π.χ. γλώσσα, σκύλος/γάτα).
 
 Ο προγραμματιστής **δεν έχει πρόσβαση** σε αυτά τα δεδομένα. Διαγράφονται όταν απεγκαταστήσετε την εφαρμογή ή διαγράψετε τα δεδομένα της εφαρμογής από τις ρυθμίσεις Android.
