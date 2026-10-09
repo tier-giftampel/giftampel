@@ -37,6 +37,7 @@ Die App speichert im geschützten App-Speicher deines Handys:
 - deine **Tier-Karteikarten** („Meine Tiere“): Tierart, Name, Geburtstag, Rasse, Geschlecht, Aussehen, Chipnummer, Notizen, Foto, **Impfungen**, **Gewichtsverlauf**, **Körperzustand** sowie **Medikamente** mit Uhrzeiten und dem Protokoll der Gaben,
 - deine **Notfall-Kontakte** (Tierarzt, Notdienst, Giftnotruf),
 - deine **Gefahrenstellen** für die Gassi-Runde: Art der Gefahr, Ort (Koordinaten), Ortsbeschreibung, Notiz, optional ein Foto, Datum und Gültigkeit,
+- deine **Rezepte**: eigene Rezepte, Fotos dazu und übernommene Dateien (z. B. eine heruntergeladene Rezept-PDF). Beim Übernehmen liest die App den Text der Datei **nur auf dem Handy** aus – nichts wird hochgeladen,
 - Einstellungen (z. B. Sprache, Hund/Katze).
 
 Der Entwickler hat auf diese Daten **keinen Zugriff**. Sie werden gelöscht, wenn du die App deinstallierst oder in den Android-Einstellungen die App-Daten löschst.
@@ -90,6 +91,7 @@ Unter „Gefahrenstellen“ kannst du dir Stellen merken, an denen du z. B. Gift
 - **Standort:** Die App fragt deinen Standort nur ab, wenn du selbst auf „Gefahrenstelle hier markieren“, „Aktuellen Standort übernehmen“ oder „Standort abrufen“ (Gassi-Runde) tippst – jeweils **einmalig**. Sie fragt den Standort **nie im Hintergrund** ab und speichert **keinen Verlauf deiner Wege**. Gespeichert werden nur die Orte der Gefahrenstellen, die du selbst anlegst. Die Entfernungen bei der Gassi-Runde werden auf dem Handy berechnet. Für die Ortung nutzt die App die Ortungsdienste deines Handys (GPS bzw. Netzwerk-Ortung); dafür gelten die Einstellungen und Hinweise deines Handyherstellers bzw. von Google. Die Standort-Berechtigung („Nur während der Nutzung der App“) kannst du jederzeit in den Android-Einstellungen entziehen; die Gefahrenstellen bleiben dann ohne Entfernungen nutzbar.
 - **Ort aus Google Maps:** Teilst du einen Ort aus Google Maps an die App, enthält er oft nur einen Kurzlink (maps.app.goo.gl). Um daraus die Koordinaten zu ermitteln, ruft die App diesen Link **einmal bei Google** auf. Dabei werden der Link und technisch notwendige Daten wie deine **IP-Adresse** an Google übertragen (Google Ireland Limited, Irland, bzw. Google LLC, USA). Links, die die Koordinaten schon enthalten (z. B. aus anderen Karten-Apps), wertet die App ohne Internet aus.
 - **Auf Karte zeigen:** Die Koordinaten werden an die Karten-App deines Handys übergeben; für die weitere Verarbeitung ist deren Anbieter verantwortlich.
+- **Giftköder öffentlich melden:** Bei Gefahrenstellen der Art „Giftköder“ öffnet der Knopf „Bei Dogorama öffentlich melden“ die Melde-Seite des fremden Anbieters Dogorama in deinem Browser. Die Tier-Giftampel übergibt dabei **keine Daten** – Ort und Beschreibung trägst du dort selbst ein; es gelten die Datenschutzhinweise von Dogorama. Der Knopf „Polizei anrufen“ öffnet nur das Wählfeld deiner Telefon-App mit der Notrufnummer; angerufen wird erst, wenn du selbst wählst.
 - **Fotos** zu Gefahrenstellen werden beim Speichern neu abgelegt, **ohne Bild-Metadaten** – also auch ohne GPS-Angaben der Kamera.
 - **Teilen:** Gefahrenstellen werden nur **einzeln** und nur auf deinen Wunsch geteilt – als Nachricht mit Kartenlink oder als Datei für die Tier-Giftampel. Dabei wird auch der **Ort** weitergegeben. Die ganze Liste wird nie auf einmal geteilt, damit niemand daraus ablesen kann, wo du wohnst oder läufst; sie ist auch nicht in „Daten weitergeben“ enthalten.
 
@@ -109,7 +111,7 @@ Tippst du bei einem Notfall-Kontakt auf „Anrufen“, wird die Nummer an die Te
 
 ### 11. Daten weitergeben (Quick Share, WhatsApp, E-Mail)
 
-Nur wenn du „Daten weitergeben“ selbst startest, erstellt die App eine Datei mit deinen Produkten und Fotos – auf Wunsch auch mit Notfall-Kontakten und Tier-Karteikarten. Du entscheidest, auf welchem Weg und an wen du sie schickst. Für die Übertragung gelten die Bedingungen des gewählten Dienstes (z. B. Google Quick Share, WhatsApp, dein E-Mail-Anbieter). Bitte gib die Datei nur an Personen weiter, denen du vertraust.
+Nur wenn du „Daten weitergeben“ selbst startest, erstellt die App eine Datei mit deinen Produkten, Fotos und eigenen Rezepten – auf Wunsch auch mit Notfall-Kontakten und Tier-Karteikarten. Du entscheidest, auf welchem Weg und an wen du sie schickst. Für die Übertragung gelten die Bedingungen des gewählten Dienstes (z. B. Google Quick Share, WhatsApp, dein E-Mail-Anbieter). Bitte gib die Datei nur an Personen weiter, denen du vertraust.
 
 **Suchplakat:** Erstellst du ein Suchplakat, entsteht auf dem Handy eine PDF-Datei mit Foto, Name, Rasse, Alter, Gewicht, Aussehen, den Angaben zum Verschwinden und der Telefonnummer, die du einträgst. Die Chipnummer steht nicht darauf. Die Telefonnummer wird für das nächste Plakat auf dem Handy gemerkt. Das Plakat verlässt das Handy nur, wenn du es selbst teilst oder druckst – dann ist es für alle sichtbar, die es sehen.
 
@@ -192,6 +194,7 @@ L'app salva nella memoria protetta dell'app sul tuo telefono:
 - le **schede dei tuoi animali** («I miei animali»): specie, nome, compleanno, razza, sesso, aspetto, numero di microchip, note, foto, **vaccinazioni**, **andamento del peso**, **condizione corporea** e **farmaci** con orari e registro delle somministrazioni,
 - i tuoi **contatti di emergenza** (veterinario, pronto soccorso veterinario, centro antiveleni),
 - i tuoi **punti pericolosi** per la passeggiata: tipo di pericolo, posizione (coordinate), descrizione del luogo, nota, eventualmente una foto, data e validità,
+- le tue **ricette**: ricette proprie, relative foto e file importati (ad es. un PDF di ricetta scaricato). All'importazione l'app legge il testo del file **solo sul telefono** – non viene caricato nulla,
 - le impostazioni (ad es. lingua, cane/gatto).
 
 Lo sviluppatore **non ha accesso** a questi dati. Vengono cancellati quando disinstalli l'app o cancelli i dati dell'app nelle impostazioni di Android.
@@ -245,6 +248,7 @@ In «Punti pericolosi» puoi annotare i luoghi in cui hai visto ad es. esche avv
 - **Posizione:** l'app chiede la tua posizione solo quando tocchi tu «Segna pericolo qui», «Usa posizione attuale» o «Rileva posizione» (passeggiata) – ogni volta **una sola volta**. Non chiede **mai la posizione in background** e non salva **alcuno storico dei tuoi percorsi**. Vengono salvati solo i luoghi dei punti pericolosi che inserisci tu. Le distanze per la passeggiata vengono calcolate sul telefono. Per la localizzazione l'app usa i servizi di localizzazione del telefono (GPS o rete); valgono le impostazioni e le informative del produttore del telefono o di Google. Puoi revocare in qualsiasi momento l'autorizzazione alla posizione («Solo mentre l'app è in uso») nelle impostazioni di Android; i punti pericolosi restano utilizzabili senza distanze.
 - **Luogo da Google Maps:** se condividi un luogo da Google Maps con l'app, spesso contiene solo un link breve (maps.app.goo.gl). Per ricavarne le coordinate l'app apre questo link **una volta presso Google**. In questo modo il link e i dati tecnicamente necessari come il tuo **indirizzo IP** vengono trasmessi a Google (Google Ireland Limited, Irlanda, o Google LLC, USA). I link che contengono già le coordinate (ad es. da altre app di mappe) vengono letti dall'app senza internet.
 - **Mostra sulla mappa:** le coordinate vengono passate all'app di mappe del telefono; del trattamento successivo è responsabile il suo fornitore.
+- **Segnalare pubblicamente un'esca avvelenata:** per i punti pericolosi di tipo «Esca avvelenata» il pulsante «Segnala pubblicamente su Dogorama» apre nel browser la pagina di segnalazione del fornitore esterno Dogorama. Tier-Giftampel **non trasmette alcun dato** – luogo e descrizione li inserisci tu lì; valgono le informazioni sulla privacy di Dogorama. Il pulsante «Chiama la polizia» apre solo il tastierino dell'app Telefono con il numero di emergenza; la chiamata parte solo se la avvii tu.
 - Le **foto** dei punti pericolosi vengono salvate di nuovo, **senza metadati** – quindi anche senza i dati GPS della fotocamera.
 - **Condivisione:** i punti pericolosi si condividono solo **uno alla volta** e solo se lo vuoi tu – come messaggio con link alla mappa o come file per Tier-Giftampel. Viene condivisa anche la **posizione**. L'elenco completo non viene mai condiviso tutto insieme, così nessuno può capire dove abiti o passeggi; non è nemmeno incluso in «Condividi dati».
 
@@ -264,7 +268,7 @@ Se tocchi «Chiama» per un contatto di emergenza, il numero viene passato all'a
 
 ### 11. Condividere i dati (Quick Share, WhatsApp, e-mail)
 
-Solo se avvii tu «Condividi dati», l'app crea un file con i tuoi prodotti e le foto – se lo desideri anche con i contatti di emergenza e le schede degli animali. Decidi tu come e a chi inviarlo. Per la trasmissione valgono le condizioni del servizio scelto (ad es. Google Quick Share, WhatsApp, il tuo fornitore di e-mail). Condividi il file solo con persone di cui ti fidi.
+Solo se avvii tu «Condividi dati», l'app crea un file con i tuoi prodotti, le foto e le tue ricette – se lo desideri anche con i contatti di emergenza e le schede degli animali. Decidi tu come e a chi inviarlo. Per la trasmissione valgono le condizioni del servizio scelto (ad es. Google Quick Share, WhatsApp, il tuo fornitore di e-mail). Condividi il file solo con persone di cui ti fidi.
 
 **Volantino di ricerca:** se crei un volantino, sul telefono viene generato un file PDF con foto, nome, razza, età, peso, aspetto, i dati sulla scomparsa e il numero di telefono che inserisci. Il numero di microchip non compare. Il numero di telefono viene memorizzato sul telefono per il volantino successivo. Il volantino lascia il telefono solo se lo condividi o lo stampi tu – da quel momento è visibile a chiunque lo veda.
 
@@ -347,6 +351,7 @@ The app stores in its protected app storage on your phone:
 - your **pet cards** (“My pets”): species, name, birthday, breed, sex, appearance, microchip number, notes, photo, **vaccinations**, **weight history**, **body condition** and **medication** with times and a log of doses given,
 - your **emergency contacts** (vet, emergency vet, poison control),
 - your **hazard spots** for dog walks: type of hazard, location (coordinates), place description, note, optionally a photo, date and validity,
+- your **recipes**: your own recipes, photos of them and imported files (e.g. a downloaded recipe PDF). When importing, the app reads the file's text **only on the phone** – nothing is uploaded,
 - settings (e.g. language, dog/cat).
 
 The developer has **no access** to this data. It is deleted when you uninstall the app or clear the app data in the Android settings.
@@ -400,6 +405,7 @@ Under “Hazard spots” you can note places where you have seen, for example, p
 - **Location:** the app only requests your location when you tap “Mark hazard here”, “Use current location” or “Get my location” (dog walk) yourself – **once** each time. It **never requests your location in the background** and keeps **no history of your routes**. Only the locations of the hazard spots you create yourself are stored. The distances for the dog walk are calculated on the phone. For positioning the app uses your phone's location services (GPS or network); the settings and notices of your phone manufacturer or Google apply. You can withdraw the location permission (“Only while using the app”) at any time in the Android settings; the hazard spots remain usable without distances.
 - **Location from Google Maps:** if you share a place from Google Maps with the app, it often contains only a short link (maps.app.goo.gl). To get the coordinates, the app opens this link **once at Google**. The link and technically necessary data such as your **IP address** are transmitted to Google (Google Ireland Limited, Ireland, or Google LLC, USA). Links that already contain coordinates (e.g. from other map apps) are read by the app without internet.
 - **Show on map:** the coordinates are passed to your phone's map app; its provider is responsible for any further processing.
+- **Reporting poison baits publicly:** for hazard spots of the type “Poison bait”, the button “Report publicly on Dogorama” opens the reporting page of the third-party provider Dogorama in your browser. Tier-Giftampel passes on **no data** – you enter the location and description there yourself; Dogorama's privacy notices apply. The button “Call the police” only opens your phone app's dial pad with the emergency number; the call is only made if you dial yourself.
 - **Photos** of hazard spots are saved anew **without image metadata** – so also without the camera's GPS data.
 - **Sharing:** hazard spots are only shared **one at a time** and only if you want – as a message with a map link or as a file for Tier-Giftampel. The **location** is shared too. The whole list is never shared at once, so nobody can tell from it where you live or walk; it is also not included in “Share data”.
 
@@ -419,7 +425,7 @@ If you tap “Call” for an emergency contact, the number is passed to your pho
 
 ### 11. Sharing data (Quick Share, WhatsApp, e-mail)
 
-Only if you start “Share data” yourself does the app create a file with your products and photos – and, if you wish, your emergency contacts and pet cards. You decide how and to whom you send it. The terms of the service you choose apply to the transfer (e.g. Google Quick Share, WhatsApp, your e-mail provider). Please only share the file with people you trust.
+Only if you start “Share data” yourself does the app create a file with your products, photos and own recipes – and, if you wish, your emergency contacts and pet cards. You decide how and to whom you send it. The terms of the service you choose apply to the transfer (e.g. Google Quick Share, WhatsApp, your e-mail provider). Please only share the file with people you trust.
 
 **Missing poster:** if you create a missing poster, a PDF file is generated on the phone with photo, name, breed, age, weight, appearance, the details of the disappearance and the phone number you enter. The microchip number is not included. The phone number is remembered on the phone for the next poster. The poster only leaves the phone if you share or print it yourself – from then on it is visible to anyone who sees it.
 
@@ -502,6 +508,7 @@ Uygulama, telefonunuzun korumalı uygulama belleğinde şunları saklar:
 - **hayvan kartlarınız** (“Hayvanlarım”): hayvan türü, ad, doğum günü, ırk, cinsiyet, görünüm, çip numarası, notlar, fotoğraf, **aşılar**, **kilo geçmişi**, **vücut kondisyonu** ile saatleri ve verilen dozların kaydıyla birlikte **ilaçlar**,
 - **acil durum kişileriniz** (veteriner, nöbetçi veteriner, zehir danışma hattı),
 - köpek gezintisi için **tehlikeli yerleriniz**: tehlikenin türü, yer (koordinatlar), yer tarifi, not, isteğe bağlı bir fotoğraf, tarih ve geçerlilik süresi,
+- **tarifleriniz**: kendi tarifleriniz, bunların fotoğrafları ve alınan dosyalar (ör. indirilmiş bir tarif PDF'si). Dosya alınırken uygulama metni **yalnızca telefonda** okur – hiçbir şey yüklenmez,
 - ayarlar (ör. dil, köpek/kedi).
 
 Geliştiricinin bu verilere **erişimi yoktur**. Veriler, uygulamayı kaldırdığınızda veya Android ayarlarından uygulama verilerini sildiğinizde silinir.
@@ -555,6 +562,7 @@ Hukuki dayanak: GDPR md. 6/1-b – tanıma yalnızca siz başlattığınız içi
 - **Konum:** Uygulama konumunuzu yalnızca “Tehlikeli yeri burada işaretle”, “Mevcut konumu kullan” veya “Konumumu al” (köpek gezintisi) düğmesine kendiniz dokunduğunuzda sorgular – her seferinde **tek seferlik**. Konumu **hiçbir zaman arka planda** sorgulamaz ve **güzergâhlarınızın geçmişini saklamaz**. Yalnızca kendi oluşturduğunuz tehlikeli yerlerin konumları saklanır. Köpek gezintisindeki mesafeler telefonda hesaplanır. Uygulama konum belirleme için telefonunuzun konum hizmetlerini (GPS veya ağ tabanlı konum) kullanır; bunun için telefon üreticinizin veya Google’ın ayarları ve bildirimleri geçerlidir. Konum iznini (“Yalnızca uygulama kullanılırken”) istediğiniz zaman Android ayarlarından geri alabilirsiniz; tehlikeli yerler bu durumda mesafeler olmadan kullanılmaya devam edebilir.
 - **Google Haritalar’dan konum:** Google Haritalar’dan uygulamayla bir konum paylaştığınızda, bu genellikle yalnızca bir kısa bağlantı (maps.app.goo.gl) içerir. Uygulama, bundan koordinatları elde etmek için bu bağlantıyı **Google’da bir kez** açar. Bu sırada bağlantı ve **IP adresiniz** gibi teknik olarak zorunlu veriler Google’a (Google Ireland Limited, İrlanda veya Google LLC, ABD) aktarılır. Koordinatları zaten içeren bağlantıları (ör. başka harita uygulamalarından gelenleri) uygulama internet olmadan işler.
 - **Haritada göster:** Koordinatlar telefonunuzun harita uygulamasına iletilir; sonraki işlemlerden o uygulamanın sağlayıcısı sorumludur.
+- **Zehirli yemi herkese açık bildirme:** “Zehirli yem” türündeki tehlikeli yerlerde “Dogorama'da herkese açık bildir” düğmesi, harici sağlayıcı Dogorama'nın bildirim sayfasını tarayıcınızda açar. Tier-Giftampel bu sırada **hiçbir veri aktarmaz** – yeri ve açıklamayı orada kendiniz girersiniz; Dogorama'nın gizlilik bildirimleri geçerlidir. “Polisi arayın” düğmesi yalnızca telefon uygulamanızın tuş takımını acil durum numarasıyla açar; arama ancak siz kendiniz aradığınızda yapılır.
 - Tehlikeli yerlere ait **fotoğraflar** kaydedilirken **görüntü meta verileri olmadan** – yani kameranın GPS bilgileri de olmadan – yeniden kaydedilir.
 - **Paylaşma:** Tehlikeli yerler yalnızca **tek tek** ve yalnızca sizin isteğinizle paylaşılır – harita bağlantılı bir mesaj olarak veya Tier-Giftampel için bir dosya olarak. Bu sırada **konum** da iletilir. Kimsenin buradan nerede oturduğunuzu veya nerede yürüdüğünüzü çıkaramaması için listenin tamamı hiçbir zaman tek seferde paylaşılmaz; liste “Veri gönder / al” içinde de yer almaz.
 
@@ -574,7 +582,7 @@ Bir acil durum kişisinde “Ara” düğmesine dokunduğunuzda numara telefonun
 
 ### 11. Veri gönderme (Quick Share, WhatsApp, e-posta)
 
-Uygulama, yalnızca “Veri gönder / al” işlevini kendiniz başlattığınızda ürünlerinizi ve fotoğraflarınızı içeren bir dosya oluşturur – isterseniz acil durum kişilerini ve hayvan kartlarını da içerecek şekilde. Dosyayı hangi yolla ve kime göndereceğinize siz karar verirsiniz. Aktarım için seçtiğiniz hizmetin (ör. Google Quick Share, WhatsApp, e-posta sağlayıcınız) koşulları geçerlidir. Lütfen dosyayı yalnızca güvendiğiniz kişilere iletin.
+Uygulama, yalnızca “Veri gönder / al” işlevini kendiniz başlattığınızda ürünlerinizi, fotoğraflarınızı ve kendi tariflerinizi içeren bir dosya oluşturur – isterseniz acil durum kişilerini ve hayvan kartlarını da içerecek şekilde. Dosyayı hangi yolla ve kime göndereceğinize siz karar verirsiniz. Aktarım için seçtiğiniz hizmetin (ör. Google Quick Share, WhatsApp, e-posta sağlayıcınız) koşulları geçerlidir. Lütfen dosyayı yalnızca güvendiğiniz kişilere iletin.
 
 **Kayıp ilanı:** Bir kayıp ilanı oluşturduğunuzda telefonda; fotoğraf, ad, ırk, yaş, kilo, görünüm, kaybolmaya ilişkin bilgiler ve girdiğiniz telefon numarasını içeren bir PDF dosyası oluşturulur. Çip numarası ilanda yer almaz. Telefon numarası bir sonraki ilan için telefonda hatırlanır. İlan telefondan yalnızca onu kendiniz paylaştığınızda veya yazdırdığınızda çıkar – bu durumda onu gören herkes tarafından görülebilir.
 
@@ -657,6 +665,7 @@ E-mail: tier.giftampel@gmail.com
 - τις **καρτέλες των ζώων** σας («Τα ζώα μου»): είδος ζώου, όνομα, γενέθλια, φυλή, φύλο, εμφάνιση, αριθμός μικροτσίπ, σημειώσεις, φωτογραφία, **εμβόλια**, **ιστορικό βάρους**, **σωματική κατάσταση** καθώς και **φάρμακα** με ώρες χορήγησης και το αρχείο των δόσεων που δόθηκαν,
 - τις **επαφές έκτακτης ανάγκης** (κτηνίατρος, κτηνιατρείο έκτακτης ανάγκης, κέντρο δηλητηριάσεων),
 - τα **επικίνδυνα σημεία** σας για τη βόλτα σκύλου: είδος κινδύνου, τοποθεσία (συντεταγμένες), περιγραφή τοποθεσίας, σημείωση, προαιρετικά μια φωτογραφία, ημερομηνία και διάρκεια ισχύος,
+- οι **συνταγές** σας: δικές σας συνταγές, φωτογραφίες τους και εισαγόμενα αρχεία (π.χ. ένα PDF συνταγής που κατεβάσατε). Κατά την εισαγωγή η εφαρμογή διαβάζει το κείμενο του αρχείου **μόνο στο κινητό** – δεν ανεβαίνει τίποτα,
 - ρυθμίσεις (π.χ. γλώσσα, σκύλος/γάτα).
 
 Ο προγραμματιστής **δεν έχει πρόσβαση** σε αυτά τα δεδομένα. Διαγράφονται όταν απεγκαταστήσετε την εφαρμογή ή διαγράψετε τα δεδομένα της εφαρμογής από τις ρυθμίσεις Android.
@@ -710,6 +719,7 @@ E-mail: tier.giftampel@gmail.com
 - **Τοποθεσία:** Η εφαρμογή ζητά την τοποθεσία σας μόνο όταν πατάτε εσείς οι ίδιοι «Σήμανση επικίνδυνου σημείου εδώ», «Χρήση τρέχουσας τοποθεσίας» ή «Λήψη τοποθεσίας» (βόλτα σκύλου) – κάθε φορά **μία μόνο φορά**. Δεν ζητά **ποτέ την τοποθεσία στο παρασκήνιο** και **δεν αποθηκεύει ιστορικό των διαδρομών σας**. Αποθηκεύονται μόνο οι τοποθεσίες των επικίνδυνων σημείων που δημιουργείτε εσείς. Οι αποστάσεις στη βόλτα σκύλου υπολογίζονται στο κινητό. Για τον εντοπισμό η εφαρμογή χρησιμοποιεί τις υπηρεσίες τοποθεσίας του κινητού σας (GPS ή εντοπισμό μέσω δικτύου)· για αυτές ισχύουν οι ρυθμίσεις και οι ενημερώσεις του κατασκευαστή του κινητού σας ή της Google. Μπορείτε να ανακαλέσετε την άδεια τοποθεσίας («Μόνο όταν χρησιμοποιείται η εφαρμογή») ανά πάσα στιγμή από τις ρυθμίσεις Android· τα επικίνδυνα σημεία παραμένουν τότε χρησιμοποιήσιμα χωρίς αποστάσεις.
 - **Τοποθεσία από το Google Maps:** Όταν μοιράζεστε με την εφαρμογή μια τοποθεσία από το Google Maps, αυτή συχνά περιέχει μόνο έναν σύντομο σύνδεσμο (maps.app.goo.gl). Για να προσδιορίσει από αυτόν τις συντεταγμένες, η εφαρμογή ανοίγει τον σύνδεσμο **μία φορά στην Google**. Κατά τη διαδικασία αυτή διαβιβάζονται στην Google (Google Ireland Limited, Ιρλανδία, ή Google LLC, ΗΠΑ) ο σύνδεσμος και τεχνικά αναγκαία δεδομένα, όπως η **διεύθυνση IP** σας. Συνδέσμους που περιέχουν ήδη τις συντεταγμένες (π.χ. από άλλες εφαρμογές χαρτών) η εφαρμογή τους επεξεργάζεται χωρίς διαδίκτυο.
 - **Εμφάνιση στον χάρτη:** Οι συντεταγμένες μεταβιβάζονται στην εφαρμογή χαρτών του κινητού σας· για την περαιτέρω επεξεργασία υπεύθυνος είναι ο πάροχός της.
+- **Δημόσια αναφορά δηλητηριασμένου δολώματος:** στα επικίνδυνα σημεία του είδους «Δηλητηριασμένο δόλωμα», το κουμπί «Δημόσια αναφορά στο Dogorama» ανοίγει στο πρόγραμμα περιήγησης τη σελίδα αναφοράς του εξωτερικού παρόχου Dogorama. Η Tier-Giftampel **δεν διαβιβάζει κανένα δεδομένο** – την τοποθεσία και την περιγραφή τις καταχωρίζετε εκεί εσείς· ισχύουν οι πληροφορίες απορρήτου του Dogorama. Το κουμπί «Κλήση αστυνομίας» ανοίγει μόνο το πληκτρολόγιο της εφαρμογής τηλεφώνου με τον αριθμό έκτακτης ανάγκης· η κλήση γίνεται μόνο αν την πραγματοποιήσετε εσείς.
 - Οι **φωτογραφίες** επικίνδυνων σημείων αποθηκεύονται εκ νέου κατά την αποθήκευση, **χωρίς μεταδεδομένα εικόνας** – άρα και χωρίς τα στοιχεία GPS της κάμερας.
 - **Κοινή χρήση:** Τα επικίνδυνα σημεία κοινοποιούνται μόνο **μεμονωμένα** και μόνο αν το επιθυμείτε – ως μήνυμα με σύνδεσμο χάρτη ή ως αρχείο για το Tier-Giftampel. Κατά την κοινοποίηση γνωστοποιείται και η **τοποθεσία**. Ολόκληρη η λίστα δεν κοινοποιείται ποτέ με μία κίνηση, ώστε να μην μπορεί κανείς να συμπεράνει από αυτήν πού μένετε ή πού περπατάτε· ούτε περιλαμβάνεται στην «Αποστολή / λήψη δεδομένων».
 
@@ -729,7 +739,7 @@ E-mail: tier.giftampel@gmail.com
 
 ### 11. Αποστολή δεδομένων (Quick Share, WhatsApp, e-mail)
 
-Μόνο όταν ξεκινάτε εσείς οι ίδιοι την «Αποστολή / λήψη δεδομένων», η εφαρμογή δημιουργεί ένα αρχείο με τα προϊόντα και τις φωτογραφίες σας – αν το επιθυμείτε, και με τις επαφές έκτακτης ανάγκης και τις καρτέλες των ζώων. Εσείς αποφασίζετε με ποιον τρόπο και σε ποιον θα το στείλετε. Για τη διαβίβαση ισχύουν οι όροι της υπηρεσίας που επιλέγετε (π.χ. Google Quick Share, WhatsApp, ο πάροχος e-mail σας). Παρακαλούμε να δίνετε το αρχείο μόνο σε άτομα που εμπιστεύεστε.
+Μόνο όταν ξεκινάτε εσείς οι ίδιοι την «Αποστολή / λήψη δεδομένων», η εφαρμογή δημιουργεί ένα αρχείο με τα προϊόντα, τις φωτογραφίες και τις δικές σας συνταγές – αν το επιθυμείτε, και με τις επαφές έκτακτης ανάγκης και τις καρτέλες των ζώων. Εσείς αποφασίζετε με ποιον τρόπο και σε ποιον θα το στείλετε. Για τη διαβίβαση ισχύουν οι όροι της υπηρεσίας που επιλέγετε (π.χ. Google Quick Share, WhatsApp, ο πάροχος e-mail σας). Παρακαλούμε να δίνετε το αρχείο μόνο σε άτομα που εμπιστεύεστε.
 
 **Αφίσα αναζήτησης:** Όταν δημιουργείτε μια αφίσα αναζήτησης, δημιουργείται στο κινητό ένα αρχείο PDF με φωτογραφία, όνομα, φυλή, ηλικία, βάρος, εμφάνιση, τα στοιχεία για την εξαφάνιση και τον αριθμό τηλεφώνου που καταχωρίζετε. Ο αριθμός μικροτσίπ δεν αναγράφεται. Ο αριθμός τηλεφώνου απομνημονεύεται στο κινητό για την επόμενη αφίσα. Η αφίσα φεύγει από το κινητό μόνο αν τη μοιραστείτε ή την εκτυπώσετε εσείς οι ίδιοι – τότε είναι ορατή σε όλους όσοι τη βλέπουν.
 
